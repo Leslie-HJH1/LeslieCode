@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: 1bb0261934383794f90b8d10955d9d8f, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  ViewPath: Assets/Scripts/Game/View
+  ServicePath: Assets/Scripts/Game/Service
+  SystemPath: Assets/Scripts/Game/System
+  ServiceManagerPath: Assets/Scripts/Game/Service/ServiceManager.cs
+  ViewFeaturePath: Assets/Scripts/Game/Feature/ViewFeature.cs
+  InputFeaturePath: Assets/Scripts/Game/Feature/InputFeature.cs
+  GameFeaturePath: Assets/Scripts/Game/Feature/GameFeature.cs
