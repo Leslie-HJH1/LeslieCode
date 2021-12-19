@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirCombatGameDemo-One", "AirCombatGameDemo-One.csproj", "{22AAB009-E041-711D-AADC-09FAB6CB2297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirCombatGameDemo-One.Editor", "AirCombatGameDemo-One.Editor.csproj", "{BABB6075-2454-F040-94A3-6D8429CFE796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22AAB009-E041-711D-AADC-09FAB6CB2297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AAB009-E041-711D-AADC-09FAB6CB2297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AAB009-E041-711D-AADC-09FAB6CB2297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AAB009-E041-711D-AADC-09FAB6CB2297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABB6075-2454-F040-94A3-6D8429CFE796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABB6075-2454-F040-94A3-6D8429CFE796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABB6075-2454-F040-94A3-6D8429CFE796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABB6075-2454-F040-94A3-6D8429CFE796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
