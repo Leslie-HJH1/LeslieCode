@@ -9,6 +9,14 @@ public class LaunchGame : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
+        TestMgr.Single.Init();
+
+        if (FindObjectsOfType<LaunchGame>().Length>1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
 		//DataMgr.Single.ClearAll();//清除之前的数据先  因为Unity PlayerPrefs的原因  
 
 		GameStateModel.Single.CurrentScene = SceneName.Main;
@@ -17,10 +25,10 @@ public class LaunchGame : MonoBehaviour {
 		
 		UIManager.Single.Show(Paths.PREFAB_START_VIEW);
 
-		// JsonReader reader = new JsonReader();
-		// reader["planes"][0]["life"].Get<float>((value)=>Debug.Log(value));
-		// reader.SetData(_json);
-		
+        // JsonReader reader = new JsonReader();
+        // reader["planes"][0]["life"].Get<float>((value)=>Debug.Log(value));
+        // reader.SetData(_json);
+        DontDestroyOnLoad(gameObject);
 	}
 	
 	//private string _json="{'planes':[{'planeId':0,'level':1,'attack':5,'fireRate':0.8,'life':100}]}";

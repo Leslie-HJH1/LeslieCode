@@ -40,17 +40,17 @@ public class MessageMgr : NormalSingleton<MessageMgr>, IMessageSystem
         _msgSystem.DispatchMsg(key, args);
     }
 
-    //public void AddListener(KeyCode code, InputState state, Action<object[]> callback)
-    public void AddListener(KeyCode code, Action<object[]> callback)
+    public void AddListener(KeyCode code, InputState state, Action<object[]> callback)
+    //public void AddListener(KeyCode code, Action<object[]> callback)
     {
-        //var key = InputMgr.Single.GetKey(code, state);
-        //AddListener(key, callback);
+        var key = InputMgr.Single.GetKey(code, state);
+        AddListener(key, callback);
     }
 
-    //public void RemoveListener(KeyCode code, InputState state, Action<object[]> callback)
-    public void RemoveListener(KeyCode code, Action<object[]> callback)
+    public void RemoveListener(KeyCode code, InputState state, Action<object[]> callback)
+    //public void RemoveListener(KeyCode code, Action<object[]> callback)
     {
-        //var key = InputMgr.Single.GetKey(code, state);
-        //RemoveListener(key, callback);
+        var key = InputMgr.Single.GetKey(code, state);
+        RemoveListener(key, callback);
     }
 }

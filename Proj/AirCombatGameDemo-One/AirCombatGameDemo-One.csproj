@@ -292,6 +292,8 @@
     <Compile Include="Assets\Scripts\Interface\IShow.cs" />
     <Compile Include="Assets\Scripts\Interface\IUpdate.cs" />
     <Compile Include="Assets\Scripts\LaunchGame.cs" />
+    <Compile Include="Assets\Scripts\Logic\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Logic\Bullet\BulletMgr.cs" />
     <Compile Include="Assets\Scripts\Logic\Component\AutoDespawnComponent.cs" />
     <Compile Include="Assets\Scripts\Logic\Component\AutoDestroyComponent.cs" />
     <Compile Include="Assets\Scripts\Logic\Component\CameraMove.cs" />
@@ -307,6 +309,13 @@
     <Compile Include="Assets\Scripts\Logic\InitGame\GameRoot.cs" />
     <Compile Include="Assets\Scripts\Logic\Map\MapItem.cs" />
     <Compile Include="Assets\Scripts\Logic\Map\MapMgr.cs" />
+    <Compile Include="Assets\Scripts\Logic\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Logic\Trajectory\ITrajectory.cs" />
+    <Compile Include="Assets\Scripts\Logic\Trajectory\StraightTrajectory.cs" />
+    <Compile Include="Assets\Scripts\Logic\Trajectory\TrajectoryFactory.cs" />
+    <Compile Include="Assets\Scripts\Logic\Trajectory\VTrajectory.cs" />
+    <Compile Include="Assets\Scripts\Logic\View\IGameView.cs" />
+    <Compile Include="Assets\Scripts\Logic\View\PlayerView.cs" />
     <Compile Include="Assets\Scripts\Manager\AudioMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\ConfigMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\CoroutineMgr.cs" />
@@ -319,6 +328,7 @@
     <Compile Include="Assets\Scripts\Manager\ReaderMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\SceneMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\TaskQueueMgr.cs" />
+    <Compile Include="Assets\Scripts\Manager\TestMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\UILayerMgr.cs" />
     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\Model\GameModel.cs" />
@@ -331,6 +341,7 @@
     <Compile Include="Assets\Scripts\Module\DataMemory\PlayerPrefsMemory.cs" />
     <Compile Include="Assets\Scripts\Module\DelegateMgr\ActionMgr.cs" />
     <Compile Include="Assets\Scripts\Module\DelegateMgr\FuncMgr.cs" />
+    <Compile Include="Assets\Scripts\Module\Input\InputModule.cs" />
     <Compile Include="Assets\Scripts\Module\Loader\ABLoader.cs" />
     <Compile Include="Assets\Scripts\Module\Loader\ILoader.cs" />
     <Compile Include="Assets\Scripts\Module\Loader\ResourceLoader.cs" />
@@ -338,6 +349,8 @@
     <Compile Include="Assets\Scripts\Module\Reader\IReader.cs" />
     <Compile Include="Assets\Scripts\Module\Reader\JsonReader.cs" />
     <Compile Include="Assets\Scripts\Module\TaskQueue\TaskQueue.cs" />
+    <Compile Include="Assets\Scripts\Test\ITest.cs" />
+    <Compile Include="Assets\Scripts\Test\MsgEventTest.cs" />
     <Compile Include="Assets\Scripts\UI\Effect\ItemCDEffect.cs" />
     <Compile Include="Assets\Scripts\UI\Effect\ItemEffect.cs" />
     <Compile Include="Assets\Scripts\UI\GameUI\Controller\BombController.cs" />
